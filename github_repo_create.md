@@ -11,7 +11,7 @@
 6. Push file changes run `$ git push -u origin main`.
 7. Push an existing repo from command line.
     ```Bash
-        $ git remote add origin https://github.com/ItiharaYuuko/test.git
+        $ git remote add origin git://github.com/ItiharaYuuko/test.git
         $ git branch -M main
         $ git push -u origin main
     ```
