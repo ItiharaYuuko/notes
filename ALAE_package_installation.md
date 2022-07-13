@@ -2,7 +2,7 @@
 
 ## Preprocessing</br>
 
-#### Please notice blow operations only for Windows platform</br>
+#### Please notice below operations only for Windows platform</br>
 
 1. When your computer didn't install the python please download python installer at https://python.org, at this time you should choice the python3.7 - python3.9 to fit the pytorch.
 2. Please uptodate yor NVIDIA GPU driver to newest version at: https://www.nvidia.cn/geforce/drivers/
