@@ -23,10 +23,13 @@ for libs folder, download them as zip files  and extract at here. Please back bi
    ```
 when you compiled this package to a whl file, you can find that at 'dist' folder.
 While now you could able to install the whl file for your python environment.
+
 7. Run `pip install -r requirements.txt` at ALAE root folder to install this object need requirement packages.
+
 8. Next step you need to predownload the training modules for ALAE, but the code was too old, you should block 
     ```Python
         from torch.autograd.gradcheck import zero_gradients
     ```
 this code was not supported at PyTorch 11.2, please comment it at [__init__.py]($PYTHONPATH\Lib\site-packages\dlutils\__init__.py), and [__init__.py]($PYTHONPATH\Lib\site-packages\dlutils\pytorch\__init__.py), finally you could run `python training_artifacts/download_all.py` to download the training modules. Next have a rest waiting for downloading.
+
 9. Next step I will fix the Zero Gradints problem for ALAE library, coming soon ...
