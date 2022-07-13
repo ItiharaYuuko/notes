@@ -17,12 +17,12 @@
         imgui: https://github.com/ocornut/imgui/tree/58b3e02b95b4c7c5bb9128a28c6d55546501bf93
         pybind11: https://github.com/pybind/pybind11/tree/f1abf5d9159b805674197f6bc443592e631c9130
     ```
-for libs folder, download them as zip files  and extract at here. Please back bimpy root folder, and run:
-   ```Bash
-        $ python setup.py bdist_wheel
-   ```
-when you compiled this package to a whl file, you can find that at 'dist' folder.
-While now you could able to install the whl file for your python environment.
+    for libs folder, download them as zip files  and extract at here. Please back bimpy root folder, and run:
+    ```Bash
+            $ python setup.py bdist_wheel
+    ```
+    when you compiled this package to a whl file, you can find that at 'dist' folder.
+    While now you could able to install the whl file for your python environment.
 
 7. Run `pip install -r requirements.txt` at ALAE root folder to install this object need requirement packages.
 
@@ -30,6 +30,6 @@ While now you could able to install the whl file for your python environment.
     ```Python
         from torch.autograd.gradcheck import zero_gradients
     ```
-this code was not supported at PyTorch 11.2, please comment it at [__init__.py]($PYTHONPATH\Lib\site-packages\dlutils\__init__.py), and [__init__.py]($PYTHONPATH\Lib\site-packages\dlutils\pytorch\__init__.py), finally you could run `python training_artifacts/download_all.py` to download the training modules. Next have a rest waiting for downloading.
+    this code was not supported at PyTorch 11.2, please comment it at [__init__.py]($PYTHONPATH\Lib\site-packages\dlutils\__init__.py), and [__init__.py]($PYTHONPATH\Lib\site-packages\dlutils\pytorch\__init__.py), finally you could run `python training_artifacts/download_all.py` to download the training modules. Next have a rest waiting for downloading.
 
 9. Next step I will fix the Zero Gradints problem for ALAE library, coming soon ...
