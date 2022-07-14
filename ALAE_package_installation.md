@@ -32,4 +32,6 @@
     ```
     this code was not supported at PyTorch 11.2, please comment it at [__init__.py]($PYTHONPATH\Lib\site-packages\dlutils\__init__.py), and [__init__.py]($PYTHONPATH\Lib\site-packages\dlutils\pytorch\__init__.py), finally you could run `python training_artifacts/download_all.py` to download the training modules. Next have a rest waiting for downloading.
 
-9. Next step I will fix the Zero Gradints problem for ALAE library, coming soon ...
+9. At last step we need install named auto-attack package in this python environment, to instead that commented code. Now type [auto-attack](`$ pip install git+https://github.com/fra31/auto-attack`) in your terminal, make the installation complete. When you can't connect to the github server, please move to auto-attacks offical github page, and download the zip archiver manually. Extract it and open terminal in that folder, `$ python setup.py install` this command will automatic help you install this package.
+10. Now open that two files in step 8, add `from autoattack.other_utils import zero_gradients` this line under commented code.
+11. Next step, is on the way ...
