@@ -58,5 +58,5 @@
     ```
 8. At statusbar press Arduino Board Configuration at "Select Board" choise the "Generic ESP8266 Module" , when you use ESP-01 or ESP-01s keep the config as default.
 9. At statusbar press the path which you opened EXP: "ESP8266\testfirst\test.ino", it will notify you type the path in input. This setting influence the binary file compile.
->>>>>>> d13f4ba4c4f8d01dcb9e311d920960610e90bf13
+    > d13f4ba4c4f8d01dcb9e311d920960610e90bf13
 10. Press F1 type "arduino:upload" to compile and upload the firmware into your chip.
