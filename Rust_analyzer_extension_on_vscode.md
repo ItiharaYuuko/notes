@@ -18,7 +18,7 @@
         "object_name_1",
         "object_name_2",
         "object_name_2",
-        ...
+        #...
     ]
     ```
 6. Restart your VSCode and enjoy.
