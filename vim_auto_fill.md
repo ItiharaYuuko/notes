@@ -30,7 +30,7 @@
         $ git clone https://github.com/scrooloose/nerdtree
         ```
 
-    3. Append follow content to [^Vim profile] vim profile
+    3. Append follow content to <font color="#F0F000">Vim profile</font> vim profile
         ```toml
         autocmd VimEnter * NERDTree | wincmd p
 
@@ -40,11 +40,11 @@
         ```
 
 * vim-airline vim status bar beautify
-    1. Clone the github repo files to [^Vim startup path]
+    1. Clone the github repo files to <font color="#F0F000">Vim startup path</font>
 
 * vim-one vim color matching for dark theme
-    1. Clone the github repo files to [^Vim startup path]
-    2. Config [^Vim profile] file appending follow content to apply settings
+    1. Clone the github repo files to <font color="#F0F000">Vim startup path</font>
+    2. Config <font color="#F0F000">Vim profile</font> file appending follow content to apply settings
         ```toml
         set bg=dark
         colorscheme one
@@ -57,7 +57,7 @@
         ```
         *When installing Nodejs cannot connecting to server, or other unknown error occured please look above, install Nodejs manual.*
 
-    2. Clone the github repo files to [^Vim startup path]
+    2. Clone the github repo files to <font color="#F0F000">Vim startup path</font>
         ```bash
         $ git clone https://github.com/neoclide/coc.nvim.git
         ```
@@ -70,9 +70,9 @@
         ```
 
     4. Setting up completion and syntax checks time out and keymap
-        *Append reference configuration [Example vim configuration](https://github.com/neoclide/coc.nvim#example-vim-configuration) code to [^Vim profile]*
+        *Append reference configuration [Example vim configuration](https://github.com/neoclide/coc.nvim#example-vim-configuration) code to <font color="#F0F000">Vim profile</font>*
 
 ****
-[^Vim profile]: ~/.vimrc <!-- Vim configuration file. -->
+<font color="#F0F000">Vim profile</font>: ~/.vimrc <!-- Vim configuration file. -->
 
-[^Vim startup path]: ~/.vim/pack/vendor/start <!-- Storage the plugins files. -->
+<font color="#F0F000">Vim startup path</font>: ~/.vim/pack/vendor/start <!-- Storage the plugins files. -->

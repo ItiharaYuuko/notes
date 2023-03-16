@@ -15,7 +15,6 @@
         $ git remote add origin git://github.com/ItiharaYuuko/test.git
         $ git branch -M main
         $ git push -u origin main
-=======
 # Github repo init and push
 1. Select a folder run `$ git init` to create a .git for path.
 2. If you didnt config the github account please run below commands.
@@ -32,5 +31,5 @@
         $ git remote add origin https://github.com/ItiharaYuuko/test.git
         $ git branch -M main
         $ git push -u origin main
->>>>>>> d13f4ba4c4f8d01dcb9e311d920960610e90bf13
+        d13f4ba4c4f8d01dcb9e311d920960610e90bf13
     ```
